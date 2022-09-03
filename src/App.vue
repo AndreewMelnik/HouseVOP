@@ -7,6 +7,7 @@
 <script>
 import AppHeader from "@/components/AppHeader";
 
+
 export default {
   name: 'App',
   components: {
@@ -104,12 +105,39 @@ video{
   color: #fff;
   vertical-align: baseline;
 }
+ol,
+ul,
+h1,
+h2,
+a{
+  list-style: none;
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'Post No Bills Jaffna SemiBold Regular';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Post No Bills Jaffna SemiBold Regular'), url('./assets/fonts/PostNoBillsJaffna-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-Regular.woff2') format('woff2'), url('./assets/fonts/Raleway-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./assets/fonts/PlayfairDisplay-Bold.woff2') format('woff2'), url('./assets/fonts/PlayfairDisplay-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
 
 .wrapper{
   max-width: 1090px;
   margin: 0 auto;
   padding: 0 10px;
 }
+
 
 
 </style>
