@@ -45,7 +45,7 @@ export default {
   line-height: 64px;
   text-align: center;
   color: #D4C17F;
-}kk
+}
 .intro__logo{
   margin-top: 100px;
   display: inline-block;

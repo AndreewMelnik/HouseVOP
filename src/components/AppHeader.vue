@@ -53,7 +53,7 @@ export default {
 
 .header {
   min-height: 100vh;
-  background: url(../assets/images/Rectangle.png) no-repeat center ;
+  background: url(../assets/images/rectangle.png) no-repeat center ;
   background-size:cover;
   position:relative;
 }
