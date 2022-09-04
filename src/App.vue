@@ -1,17 +1,20 @@
 <template>
   <div class="app" id="app">
     <AppHeader/>
+    <AppInfo/>
   </div>
 </template>
 
 <script>
 import AppHeader from "@/components/AppHeader";
+import AppInfo from "@/components/AppInfo";
 
 
 export default {
   name: 'App',
   components: {
-    AppHeader
+    AppHeader,
+    AppInfo
   }
 }
 </script>
