@@ -2,19 +2,22 @@
   <div class="app" id="app">
     <AppHeader/>
     <AppInfo/>
+    <AppApart/>
   </div>
 </template>
 
 <script>
 import AppHeader from "@/components/AppHeader";
 import AppInfo from "@/components/AppInfo";
+import AppApart from "@/components/AppApart";
 
 
 export default {
   name: 'App',
   components: {
     AppHeader,
-    AppInfo
+    AppInfo,
+    AppApart,
   }
 }
 </script>
