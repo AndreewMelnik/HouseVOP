@@ -7,7 +7,7 @@
             <a href="#">
               <h1>House<span>VOP</span></h1>
               <br/>
-              <h2>ЖИЛОЙ КОМПЛЕКС</h2>
+              <h3>ЖИЛОЙ КОМПЛЕКС</h3>
             </a>
           </div>
           <nav class="navbar">
@@ -53,7 +53,7 @@ export default {
 
 .header {
   min-height: 100vh;
-  background: url(../assets/images/rectangle.png) no-repeat center ;
+  background: url(../assets/images/bg1.png) no-repeat center ;
   background-size:cover;
   position:relative;
 }
@@ -63,7 +63,7 @@ font-family: 'Post No Bills Jaffna SemiBold Regular',serif;
 font-size: 17.5px;
 line-height: 0.5;
 }
-.logo h2{
+.logo h3{
   font-family: 'Raleway';
   font-size: 12px;
   line-height: 14px;

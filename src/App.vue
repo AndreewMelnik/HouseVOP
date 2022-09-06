@@ -3,6 +3,7 @@
     <AppHeader/>
     <AppInfo/>
     <AppApart/>
+    <AppForm/>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import AppHeader from "@/components/AppHeader";
 import AppInfo from "@/components/AppInfo";
 import AppApart from "@/components/AppApart";
+import AppForm from "@/components/AppForm";
 
 
 export default {
@@ -18,6 +20,7 @@ export default {
     AppHeader,
     AppInfo,
     AppApart,
+    AppForm,
   }
 }
 </script>
@@ -115,9 +118,18 @@ ol,
 ul,
 h1,
 h2,
+h3,
 a{
   list-style: none;
   text-decoration: none;
+}
+h2{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #D4C17F;
 }
 @font-face {
   font-family: 'Post No Bills Jaffna SemiBold Regular';

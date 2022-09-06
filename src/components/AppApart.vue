@@ -1,7 +1,7 @@
 <template>
  <div class="apart">
    <div class="wrapper">
-     <h2 class="cards__title">Наши квартиры</h2>
+     <h2 class="apart__card-title">Наши квартиры</h2>
      <div class="apart__card-list">
        <AppApartCard
        v-for="card in cards"
@@ -41,6 +41,11 @@ export default {
   padding-top: 120px;
   background: #242B33;
 }
+.apart__card-title{
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  color: #D4C17F;
+}
 .apart__card-list{
   margin-top: 100px;
   gap: 30px 30px;
@@ -48,5 +53,8 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 100px;
+}
+.wrapper{
+  max-height: 1000px;
 }
 </style>

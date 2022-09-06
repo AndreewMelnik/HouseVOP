@@ -3,19 +3,19 @@
   <div class="info__cards">
     <div class="info__card">
       <img class="info__card-img" src="../assets/images/park.svg">
-      <h2 class="info__card-title">Рядом исторические парки и скверы</h2>
+      <h3 class="info__card-title">Рядом исторические парки и скверы</h3>
     </div>
     <div class="info__card">
       <img class="info__card-img" src="../assets/images/building.svg">
-      <h2 class="info__card-title">Полностью обустроенный</h2>
+      <h3 class="info__card-title">Полностью обустроенный</h3>
     </div>
     <div class="info__card">
       <img class="info__card-img" src="../assets/images/fountain.svg">
-      <h2 class="info__card-title">10 фонтанов на территории</h2>
+      <h3 class="info__card-title">10 фонтанов на территории</h3>
     </div>
     <div class="info__card">
       <img class="info__card-img" src="../assets/images/velo.svg">
-      <h2 class="info__card-title">6 км <br/>велодорожек</h2>
+      <h3 class="info__card-title">6 км <br/>велодорожек</h3>
     </div>
 <!--    <span class="rome">II</span>-->
   </div>
