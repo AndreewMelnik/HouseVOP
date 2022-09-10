@@ -1,5 +1,5 @@
 <template>
-<div class="info">
+<div class="background">
   <div class="info__cards">
     <div class="info__card">
       <img class="info__card-img" src="../assets/images/park.svg">
@@ -29,9 +29,7 @@ export default {
 </script>
 
 <style scoped>
-.info{
-  background:#242B33;
-}
+
 .info__cards{
   display: flex;
   justify-content: center;

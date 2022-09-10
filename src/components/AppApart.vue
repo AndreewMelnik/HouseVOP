@@ -1,7 +1,7 @@
 <template>
  <div class="apart">
    <div class="wrapper">
-     <h2 class="apart__card-title">Наши квартиры</h2>
+     <h2 class="title">Наши квартиры</h2>
      <div class="apart__card-list">
        <AppApartCard
        v-for="card in cards"
@@ -38,7 +38,6 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding-top: 120px;
   background: #242B33;
 }
 .apart__card-title{

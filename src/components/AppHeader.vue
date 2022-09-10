@@ -58,19 +58,6 @@ export default {
   position:relative;
 }
 
-.logo{
-font-family: 'Post No Bills Jaffna SemiBold Regular',serif;
-font-size: 17.5px;
-line-height: 0.5;
-}
-.logo h3{
-  font-family: 'Raleway';
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.12em;
-  margin-top: 5px;
-}
-
 header{
   position: fixed;
   top: 0;
