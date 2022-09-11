@@ -1,8 +1,9 @@
 <template>
 <div class="intro">
+  <div class="wrapper">
   <div class="intro__wrapper">
     <div class="intro__title">Жилой комплекс <br/>в историческом центре</div>
-    <a class="intro__logo" >
+    <a class="intro__logo" href="#articles">
 <!--      <img class="intro__logo-img" src="../assets/images/mouse.svg" alt="mouse" />-->
     </a>
     <div class="intro__contacts">
@@ -15,7 +16,7 @@
           <h3 class="intro__contacts-title">8 (812) 123-45-67</h3>
         </div>
     </div>
-
+  </div>
   </div>
 </div>
 </template>
@@ -33,7 +34,6 @@ export default {
 }
 .intro__wrapper{
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -63,11 +63,12 @@ export default {
   display: flex;
   flex-wrap: wrap;
   margin-top: 160px;
-  width: 582px;
+  width: 62%;
   justify-content: space-around;
 }
 .intro__contacts-caption{
   display: flex;
+  margin-top: 2%;
 }
 .intro__contacts-title{
   font-family: 'Raleway';
@@ -88,6 +89,20 @@ export default {
   width: 15px;
   height: 21px;
   margin-right: 18px;
+}
+
+@media (max-width: 800px) {
+  .intro__title{
+    font-size: 37px;
+  }
+  .intro__contacts-title{
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .intro__contacts-title{
+    font-size: 13px;
+  }
 }
 
 </style>

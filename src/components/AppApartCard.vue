@@ -34,13 +34,12 @@ export default {
   color:white;
 }
 .cards__card img{
-   /*width: 100%;*/
-  margin: 30px 0;
+   width: 100%;
   transition: 0.5s;
  }
 .card__title{
   position: relative;
-  top: -100px;
+  top: -70px;
   left: 50px;
   font-family: 'Raleway';
   font-weight: 400;
@@ -49,5 +48,25 @@ export default {
 .cards__card:hover .cards__card img{
   transform: scale(1.1);
 }
+@media (max-width: 1200px) {
+  .card__title{
+    font-size: 21px;
+    top: -50px;
+  }
+}
 
+@media (max-width: 800px) {
+  .card__title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  /*  .info__cards {*/
+  /*  }*/
+  /*}*/
+  .info__card-title {
+    font-size: 14px;
+  }
+}
 </style>

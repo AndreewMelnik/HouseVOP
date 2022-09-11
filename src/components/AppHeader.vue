@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class= "header" >
+    <header class="header">
       <div class="wrapper">
         <div class="header__wrapper">
           <div class="logo">
@@ -16,13 +16,13 @@
                 <a class="nav__link" href="#articles">О комплексе</a>
               </li>
               <li class="nav__item">
+                <a class="nav__link" href="#catalog">Каталог квартир</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#question">Ипотека</a>
+              </li>
+              <li class="nav__item">
                 <a class="nav__link" href="#locations">Район</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="#locations">Каталог квартир</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="#videos">Ипотека</a>
               </li>
               <li class="nav__item">
                 <a class="nav__link" href="#signin">Контакты</a>
@@ -43,7 +43,8 @@ export default {
   name: 'App',
   components: {
     AppIntro
-  }
+  },
+
 }
 
 
@@ -52,7 +53,7 @@ export default {
 <style scoped>
 
 .header {
-  min-height: 100vh;
+  min-height: 100%;
   background: url(../assets/images/bg1.png) no-repeat center ;
   background-size:cover;
   position:relative;
@@ -67,6 +68,10 @@ header{
   padding-bottom: 20px;
   z-index: 11;
 }
+
+/*.wrapper{*/
+/*  padding: 0 20px;*/
+/*}*/
 .header__wrapper {
   display: flex;
   flex-wrap: wrap;

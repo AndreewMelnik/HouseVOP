@@ -54,7 +54,7 @@ export default {
 }
 
 .form-control {
-  width: 212px;
+  width: 85%;
   border: none;
   background-color: rgba(255, 255, 255, .2);
   transition: all .09s ease-out;
@@ -67,4 +67,5 @@ export default {
   outline: none;
   background-color: rgba(255, 255, 255, .24);
 }
+
 </style>

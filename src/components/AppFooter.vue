@@ -1,7 +1,7 @@
   <template>
     <div class="footer__background">
       <div class="wrapper">
-      <footer class="footer">
+      <footer class="footer" id="signin">
           <div class="logo"><a href="#">
               <h1>House<span>VOP</span></h1>
               <br/>

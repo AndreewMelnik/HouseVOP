@@ -1,5 +1,6 @@
 <template>
   <div class="background">
+    <div class="wrapper">
     <div class="video__wrapper">
       <section id="video" class="video">
         <div class="row">
@@ -12,6 +13,7 @@
           </div>
         </div>
       </section>
+    </div>
     </div>
   </div>
 </template>
@@ -72,5 +74,10 @@ export default {
 
 .video__preview {
   margin: 0 auto;
+}
+@media (max-width: 800px) {
+  .background {
+    display: none;
+  }
 }
 </style>

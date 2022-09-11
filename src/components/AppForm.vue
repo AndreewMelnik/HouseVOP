@@ -1,12 +1,12 @@
 <template>
-  <section class="app-form">
+  <section class="app-form" id="question">
     <div class="wrapper">
       <div class="title">
         <h2>Хотите посмотреть?</h2>
-        <div class="form__title"><p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
+        <h3 class="form__title"><p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
           Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный
           печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
-        </div>
+        </h3>
       </div>
 
       <form action="#" method="POST">
@@ -46,13 +46,18 @@ export default {
   height: 560px
 }
 
+.title{
+  padding-top: 180px;
+  max-width: 50%;
+}
+
 .form__title p {
   font-family: 'Raleway';
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   padding-top: 50px;
-  width: 535px;
+  width: 87%;
 }
 
 .form {
@@ -82,7 +87,7 @@ export default {
 }
 
 .form-control {
-  width: 220px;
+  width: 85%;
   border: none;
   background-color: rgba(255, 255, 255, .2);
   transition: all .09s ease-out;
@@ -98,5 +103,23 @@ export default {
 
 .wrapper {
   display: flex;
+}
+
+@media (max-width:1200px) {
+  .form-control {
+    width: 83%;
+    font-size:13px;
+  }
+}
+@media (max-width:800px) {
+  .form {
+    padding-top: 65%;
+  }
+  .title {
+    padding-top: 20%;
+  }
+  .app-form {
+    height: 100%
+  }
 }
 </style>

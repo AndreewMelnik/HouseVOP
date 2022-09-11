@@ -1,6 +1,7 @@
 <template>
 <div class="background">
-  <div class="info__cards">
+  <div class="wrapper">
+  <div class="info__cards" id="articles">
     <div class="info__card">
       <img class="info__card-img" src="../assets/images/park.svg">
       <h3 class="info__card-title">Рядом исторические парки и скверы</h3>
@@ -19,6 +20,7 @@
     </div>
 <!--    <span class="rome">II</span>-->
   </div>
+</div>
 </div>
 </template>
 
@@ -39,14 +41,14 @@ export default {
   display: flex;
   flex-direction: column;
   align-self: last baseline;
-  margin-right: 25px;
+  margin-right: 2%;
 }
 .info__card-img{
   max-width: 80px;
   margin: 0 auto;
 }
 
-.info__card-title{
+.info__card-title {
   max-width: 200px;
   font-family: 'Raleway';
   font-weight: 300;
@@ -55,12 +57,39 @@ export default {
   text-align: center;
   margin-top: 50px;
 }
-/*.rome{*/
-/*  position: absolute;*/
-/*  left: 74%;*/
-/*  top: 100%;*/
-/*  font-family: 'Playfair Display';*/
-/*  font-size: 400px;*/
-/*  opacity: 0.02;*/
-/*}*/
+
+@media (max-width: 1200px) {
+  .info__card-title {
+    font-size: 17px;
+  }
+
+  .info__card {
+    margin-right: 1.5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .info__cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap:60px;
+  }
+
+  .info__card {
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /*  .info__cards {*/
+  /*  }*/
+  /*}*/
+  .info__card-title {
+    font-size: 14px;
+  }
+}
+
+
+
 </style>

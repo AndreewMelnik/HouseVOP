@@ -37,7 +37,7 @@ export default {
   display: flex;
 }
 .social__item{
-  margin-right: 11px;
+  margin-right: 9%;
 }
 
 </style>

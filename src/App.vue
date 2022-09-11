@@ -33,6 +33,24 @@ export default {
     AppMap,
     AppQuestions,
     AppFooter
+  },
+  methods: {
+    setScroll() {
+      const anchors = document.querySelectorAll('a[href*="#"]')
+
+      for (let anchor of anchors) {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault()
+
+          const blockID = anchor.getAttribute('href').substr(1)
+
+          document.getElementById(blockID).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          })
+        })
+      }
+    }
   }
 }
 </script>
@@ -170,7 +188,7 @@ h2 {
 .wrapper {
   max-width: 1110px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .background {
@@ -216,6 +234,17 @@ h2 {
   line-height: 14px;
   letter-spacing: 0.12em;
   margin-top: 5px;
+}
+@media (max-width:1200px) {
+  .btn {
+    font-size: 13px;
+  }
+}
+@media (max-width:800px) {
+  .title {
+    font-size: 30px;
+    padding-top: 20%;
+  }
 }
 
 </style>
