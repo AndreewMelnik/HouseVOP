@@ -245,6 +245,13 @@ h2 {
     font-size: 30px;
     padding-top: 20%;
   }
+  h2 {
+    font-size: 30px;
+  }
+  .wrapper {
+    width:80%
+  }
 }
+
 
 </style>

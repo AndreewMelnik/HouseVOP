@@ -103,6 +103,7 @@ export default {
 
 .wrapper {
   display: flex;
+
 }
 
 @media (max-width:1200px) {
@@ -113,13 +114,37 @@ export default {
 }
 @media (max-width:800px) {
   .form {
-    padding-top: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20%;
+    padding-top: 20%;
+    margin-left: 0px;
+  }
+  .form__item {
+    width: 100%;
+    margin-bottom: 0px;
   }
   .title {
-    padding-top: 20%;
+    padding-top: 10px;
+    max-width: 100%
+  ;
   }
   .app-form {
     height: 100%
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form__title p {
+    width:100%;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+@media (max-width:480px) {
+  .form__item-text {
+    font-size: 11px;
   }
 }
 </style>

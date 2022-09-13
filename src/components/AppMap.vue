@@ -26,6 +26,9 @@ export default {
   iframe {
     width: 100%;
   }
+  .map iframe{
+    padding-top: 8%;
+  }
 }
 
 @media (max-width: 414px) {

@@ -100,8 +100,14 @@ export default {
   }
 }
 @media (max-width: 480px) {
+  .intro__title{
+    font-size: 30px;
+  }
   .intro__contacts-title{
     font-size: 13px;
+  }
+  .intro__contacts{
+    width: 85%;
   }
 }
 

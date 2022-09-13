@@ -4,7 +4,7 @@
   <div class="info__cards" id="articles">
     <div class="info__card">
       <img class="info__card-img" src="../assets/images/park.svg">
-      <h3 class="info__card-title">Рядом исторические парки и скверы</h3>
+      <h3 class="info__card-title">Исторические парки и скверы</h3>
     </div>
     <div class="info__card">
       <img class="info__card-img" src="../assets/images/building.svg">
@@ -87,6 +87,9 @@ export default {
   /*}*/
   .info__card-title {
     font-size: 14px;
+  }
+  .info__cards {
+    gap:30px;
   }
 }
 
