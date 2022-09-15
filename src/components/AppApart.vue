@@ -61,6 +61,18 @@ export default {
     grid-template-columns: 1fr;
     margin-bottom: 60px;
   }
+}
+@media (max-width: 800px) {
+  .apart__card-list {
+    padding-top: 15%;
+    margin-top: 0px;
+  }
+}
+  @media (max-width: 480px) {
+    .apart__card-list {
+      padding-top: 20%;
+      margin-top: 0px;
+    }
 
 }
 </style>

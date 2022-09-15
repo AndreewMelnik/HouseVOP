@@ -252,6 +252,11 @@ h2 {
     width:80%
   }
 }
+@media (max-width:480px) {
+  h2 {
+    font-size: 28px;
+  }
+}
 
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section class="app-form" id="question">
+  <section class="app-form" id="form">
     <div class="wrapper">
       <div class="title">
         <h2>Хотите посмотреть?</h2>
@@ -140,6 +140,7 @@ export default {
     width:100%;
     text-align: center;
     font-size: 14px;
+    padding-top: 10%;
   }
 }
 @media (max-width:480px) {

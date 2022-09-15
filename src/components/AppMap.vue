@@ -30,7 +30,19 @@ export default {
     padding-top: 8%;
   }
 }
-
+@media (max-width: 800px) {
+  .map iframe {
+    padding-top: 15%;
+  }
+}
+@media (max-width: 480px) {
+.title{
+  padding-top: 25%;
+}
+  .map iframe {
+    padding-top: 20%;
+  }
+}
 @media (max-width: 414px) {
   iframe {
     height: 250px;

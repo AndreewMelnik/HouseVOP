@@ -19,7 +19,7 @@
                 <a class="nav__link" href="#catalog">Каталог квартир</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="#question">Ипотека</a>
+                <a class="nav__link" href="#form">Ипотека</a>
               </li>
               <li class="nav__item">
                 <a class="nav__link" href="#locations">Район</a>
@@ -38,6 +38,7 @@
 
 <script>
 import AppIntro from "@/components/AppIntro";
+
 
 export default {
   name: 'App',
@@ -126,4 +127,5 @@ a:hover:before {
   /*opacity: 0.75;*/
   /*transition: 1s;*/
 }
+
 </style>

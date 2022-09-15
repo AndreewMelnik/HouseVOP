@@ -60,4 +60,23 @@ export default {
 .menu__list li{
   margin-bottom: 15px;
 }
+
+@media (max-width: 800px) {
+  .menu__list-link {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .menu__list li{
+    margin-bottom: 10px;
+  }
+@media (max-width: 480px) {
+  .menu__list-link {
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .menu__list li{
+    margin-bottom: 5px;
+  }
+}
+}
 </style>

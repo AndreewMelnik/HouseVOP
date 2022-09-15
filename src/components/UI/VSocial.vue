@@ -39,5 +39,11 @@ export default {
 .social__item{
   margin-right: 9%;
 }
-
+@media (max-width: 480px) {
+  .social__item{
+margin-right: 3%;
+width: 18px;
+height: 14px;
+}
+}
 </style>

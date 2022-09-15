@@ -62,5 +62,45 @@ export default {
   color: #FFFFFF;
 }
 
+@media (max-width: 800px) {
+  .wrapper{
+    width:90%;
+    padding: 0px;
+  }
+  .footer__item:nth-child(2){
+    display: none;
+    position: absolute;
+  }
+  .footer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+  }
+  .logo{
+    font-size: 13.5px;
+  }
+  .logo h3 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .contacts__item{
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .contacts li{
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+
+  .contacts__item{
+    font-size: 9px;
+    line-height: 10px;
+  }
+  .contacts li{
+    margin-bottom: 5px;
+}}
+
+
 
 </style>

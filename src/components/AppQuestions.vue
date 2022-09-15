@@ -32,6 +32,7 @@ export default {
 
 .form {
   padding-top: 50px;
+  display: flex;
 }
 
 .form__item-text {
@@ -41,10 +42,6 @@ export default {
   font-size: 13px;
   line-height: 16px;
   text-align: center;
-}
-
-.form {
-  display: flex;
 }
 
 .form__item {
@@ -67,5 +64,66 @@ export default {
   outline: none;
   background-color: rgba(255, 255, 255, .24);
 }
+@media (max-width:800px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20%;
+  }
+  form{
+    margin: 0 auto;
+  }
+  .form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20% 5%;
+    padding-top: 20%;
+    margin-left: 0px;
+  }
+  .form__item {
+    width: 100%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  .form__item:nth-child(1){
+    display: none;
+    position: absolute;
+  }
+  .form__item:nth-child(4){
+    /*padding-left: 80px;*/
+    /*margin: 0 auto;*/
+  }
+
+  .title {
+    padding-top: 10px;
+    max-width: 100%;
+  }
+  .form__title p {
+    width:100%;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10%;
+  }
+  .form-control {
+    padding: 16px 6px 16px 6px;
+  }
+}
+@media (max-width:480px) {
+  .form__item-text {
+    font-size: 11px;
+  }
+  .btn{
+    width:93%
+  }
+  .form {
+    padding-top: 10%;
+  }
+  .title {
+    padding-top: 20%;
+  }
+}
+
+
+
 
 </style>
