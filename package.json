@@ -2,14 +2,17 @@
   "name": "vue",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://andreewmelnik.github.io/HouseVOP/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "vue": "^3.2.13"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -19,6 +22,7 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "gh-pages": "^4.0.0",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
@@ -28,7 +32,8 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "eslint:recommended"
+      "eslint:recommended",
+      "plugin:vue/vue3-essential"
     ],
     "parserOptions": {
       "parser": "@babel/eslint-parser"
@@ -38,6 +43,9 @@
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not dead"
-  ]
+    "not dead",
+    "not ie 11"
+  ],
+  "_id": "vue@0.1.0",
+  "readme": "ERROR: No README data found!"
 }
