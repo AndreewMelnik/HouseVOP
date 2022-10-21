@@ -127,5 +127,9 @@ a:hover:before {
   /*opacity: 0.75;*/
   /*transition: 1s;*/
 }
-
+@media (max-width: 800px) {
+  .navbar {
+    display:none
+  }
+}
 </style>
