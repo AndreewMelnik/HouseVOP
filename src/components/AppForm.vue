@@ -135,6 +135,7 @@ export default {
   .wrapper {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 10%;
   }
   .form__title p {
     width:100%;
